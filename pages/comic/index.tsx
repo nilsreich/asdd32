@@ -15,23 +15,11 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="01.webp"
+          src="./images/01.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="03.webp"
-        />
-      </div>
-      <div
-        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
-      >
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="04.webp"
-        />
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="05.webp"
+          src="./images/03.webp"
         />
       </div>
       <div
@@ -39,23 +27,11 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="06.webp"
+          src="./images/04.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="07.webp"
-        />
-      </div>
-      <div
-        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
-      >
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="08.webp"
-        />
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="09.webp"
+          src="./images/05.webp"
         />
       </div>
       <div
@@ -63,23 +39,11 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="10.webp"
+          src="./images/06.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="11.webp"
-        />
-      </div>
-      <div
-        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
-      >
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="12.webp"
-        />
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="13.webp"
+          src="./images/07.webp"
         />
       </div>
       <div
@@ -87,23 +51,11 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="14.webp"
+          src="./images/08.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="15.webp"
-        />
-      </div>
-      <div
-        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
-      >
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="16.webp"
-        />
-        <img
-          className="shrink-0 min-h-fit -my-10 object-fit"
-          src="17.webp"
+          src="./images/09.webp"
         />
       </div>
       <div
@@ -111,24 +63,59 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="18.webp"
+          src="./images/10.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="19.webp"
+          src="./images/11.webp"
         />
       </div>
-
       <div
         className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="20.webp"
+          src="./images/12.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="21.webp"
+          src="./images/13.webp"
+        />
+      </div>
+      <div
+        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
+      >
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/14.webp"
+        />
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/15.webp"
+        />
+      </div>
+      <div
+        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
+      >
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/16.webp"
+        />
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/17.webp"
+        />
+      </div>
+      <div
+        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
+      >
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/18.webp"
+        />
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/19.webp"
         />
       </div>
 
@@ -137,11 +124,24 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="22.webp"
+          src="./images/20.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="23.webp"
+          src="./images/21.webp"
+        />
+      </div>
+
+      <div
+        className="snap-always h-screen snap-center shrink-0 last:pr-24 flex border-r border-black"
+      >
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/22.webp"
+        />
+        <img
+          className="shrink-0 min-h-fit -my-10 object-fit"
+          src="./images/23.webp"
         />
       </div>
       <div
@@ -149,11 +149,11 @@ const Index = () => {
       >
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="24.webp"
+          src="./images/24.webp"
         />
         <img
           className="shrink-0 min-h-fit -my-10 object-fit"
-          src="25.webp"
+          src="./images/25.webp"
         />
       </div>
 

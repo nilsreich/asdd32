@@ -1,36 +1,98 @@
 import Page from '@/components/page'
-import Section from '@/components/section'
 
-const Index = () => (
-	<Page>
-		<Section>
-			<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
-				We grow a lot of rice.
-			</h2>
+const Index=()=>{
 
-			<div className='mt-2'>
-				<p className='text-zinc-600 dark:text-zinc-400'>
-					You love rice, and so does the rest of the world. In the crop year
-					2008/2009, the milled rice production volume amounted to over{' '}
-					<span className='font-medium text-zinc-900 dark:text-zinc-50'>
-						448 million tons
-					</span>{' '}
-					worldwide.
-				</p>
+	return(	
+		<Page>
+    <div className="relative w-full flex gap-0 snap-x overflow-x-auto">
+      <div className="fixed w-12 h-screen bg-gradient-to-r from-white"></div> 
+      <div className="fixed w-12 h-screen bg-gradient-to-l right-0 from-white"></div> 
+      <div
+      className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+    >
+      <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/01.webp" />
+    </div>
+    <div
+    className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+  >
+    <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/02.webp" />
+    <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/03.webp" />
+  </div>
+  <div
+  className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+  <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/04.webp" />
+  <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/05.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/06.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/07.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/08.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/09.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/10.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/11.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/12.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/13.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/14.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/15.webp" />
+</div>
+<div
+					className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+>
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/16.webp" />
+<img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/17.webp" />
+</div>
+      <div
+        className="snap-normal snap-center shrink-0 last:pr-24 flex border-r border-black"
+      >
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/18.webp" />
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/19.webp" />
+      </div>
 
-				<br />
+      <div
+        className="snap-normal snap-center shrink-0 first:pl-24 last:pr-24 flex border-r border-black"
+      >
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/20.webp" />
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/21.webp" />
+      </div>
 
-				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
-					<a
-						href='https://github.com/mvllow/next-pwa-template'
-						className='underline'
-					>
-						Source
-					</a>
-				</p>
-			</div>
-		</Section>
+      <div
+        className="snap-normal snap-center shrink-0 first:pl-24 last:pr-24 flex border-r border-black"
+      >
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/22.webp" />
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/23.webp" />
+      </div>
+      <div
+        className="snap-normal snap-center shrink-0 first:pl-24 last:pr-24 flex border-r border-black"
+      >
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/24.webp" />
+        <img className="shrink-0 h-screen aspect-[2/3] object-fit" src="./images/25.webp" />
+      </div>
+
+      <div className="snap-center shrink-0">
+        <div className="shrink-0 w-4 sm:w-48"></div>
+      </div>
+    </div>
 	</Page>
-)
+	)
+}
 
 export default Index

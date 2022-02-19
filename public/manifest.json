@@ -28,6 +28,7 @@
 	],
 	"start_url": "/?source=pwa",
 	"background_color": "#1d2020",
+	"orientation": "landscape",
 	"display": "standalone",
 	"scope": "/",
 	"theme_color": "#1d2020"

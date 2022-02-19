@@ -25,7 +25,7 @@ const Meta = () => (
 		/>
 		<meta
 			name='viewport'
-			content='width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover'
+			content='width=device-width, initial-scale=1'
 		/>
 		<link rel='apple-touch-icon' href='/images/icon-maskable-512.png' />
 		<link rel='icon' type='image/png' href='/images/favicon.png' />
